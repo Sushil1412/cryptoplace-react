@@ -6,6 +6,7 @@ import { BrowserRouter, createBrowserRouter, HashRouter, RouterProvider } from '
 import Coin from './pages/Coin/Coin.jsx'
 import Home from './pages/Home/Home';
 import CoinContextProvider from './context/CoinContext.jsx'
+import { HashRouter } from 'react-router-dom'
 
 // const router = createBrowserRouter([
 //   {
